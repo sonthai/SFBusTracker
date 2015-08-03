@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  RouteController.h
 //  SFBusTracker
 //
 //  Created by Son Thai on 3/2/12.
@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RouteParser.h"
 
-@interface FirstViewController : UIViewController
+@interface RouteController : UITableViewController
+{
+    RouteParser *xmlParser;
+        
+}
+
 
 @end

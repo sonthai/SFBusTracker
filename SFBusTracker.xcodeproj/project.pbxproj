@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0008A2151021400060D3A3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0008A11510213E0060D3A3 /* Icon.png */; };
 		1C7D8C761501EFD900D6DDA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7D8C751501EFD900D6DDA7 /* UIKit.framework */; };
 		1C7D8C781501EFD900D6DDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7D8C771501EFD900D6DDA7 /* Foundation.framework */; };
 		1C7D8C7A1501EFD900D6DDA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7D8C791501EFD900D6DDA7 /* CoreGraphics.framework */; };
@@ -14,34 +15,98 @@
 		1C7D8C821501EFD900D6DDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D8C811501EFD900D6DDA7 /* main.m */; };
 		1C7D8C861501EFD900D6DDA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D8C851501EFD900D6DDA7 /* AppDelegate.m */; };
 		1C7D8C891501EFD900D6DDA7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D8C871501EFD900D6DDA7 /* MainStoryboard.storyboard */; };
-		1C7D8C8C1501EFD900D6DDA7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D8C8B1501EFD900D6DDA7 /* FirstViewController.m */; };
 		1C7D8C8E1501EFD900D6DDA7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D8C8D1501EFD900D6DDA7 /* first.png */; };
 		1C7D8C901501EFD900D6DDA7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D8C8F1501EFD900D6DDA7 /* first@2x.png */; };
-		1C7D8C931501EFD900D6DDA7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D8C921501EFD900D6DDA7 /* SecondViewController.m */; };
 		1C7D8C951501EFD900D6DDA7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D8C941501EFD900D6DDA7 /* second.png */; };
 		1C7D8C971501EFD900D6DDA7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D8C961501EFD900D6DDA7 /* second@2x.png */; };
+		1C7D8CA01501F14400D6DDA7 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D8C9F1501F14400D6DDA7 /* Route.m */; };
+		1C7D8CA71501F25F00D6DDA7 /* RouteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D8CA61501F25F00D6DDA7 /* RouteParser.m */; };
+		1C95D514150AF50E00BE3238 /* DirectionInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D513150AF50E00BE3238 /* DirectionInstructions.m */; };
+		1C95D51A150BCF0200BE3238 /* GoogleXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D519150BCF0200BE3238 /* GoogleXMLParser.m */; };
+		1C95D51D150BCF5A00BE3238 /* DirectionInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D51C150BCF5900BE3238 /* DirectionInformation.m */; };
+		1C9D39971505577200624C8E /* BusLocationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D39961505577200624C8E /* BusLocationParser.m */; };
+		1C9D399B15055ABB00624C8E /* BusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D399A15055ABB00624C8E /* BusInfo.m */; };
+		1C9D39A31505B46B00624C8E /* VehicleLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D39A21505B46B00624C8E /* VehicleLocation.m */; };
+		1C9E2AA115051ADF00C955DE /* DisplayRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E2A9C15051ADF00C955DE /* DisplayRoute.m */; };
+		1C9E2AA215051ADF00C955DE /* GetInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E2A9E15051ADF00C955DE /* GetInformation.m */; };
+		1C9E2AA315051ADF00C955DE /* FindLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E2AA015051ADF00C955DE /* FindLocation.m */; };
+		1C9E2B621506901C00F1FA63 /* MemoryHound.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E2B611506901C00F1FA63 /* MemoryHound.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CA67535171A872500328D07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA67534171A872500328D07 /* Default-568h@2x.png */; };
+		1CDE8A961501FF7E0000E64E /* RouteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE8A951501FF7E0000E64E /* RouteController.m */; };
+		1CDE8A9B150213280000E64E /* DirectionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE8A9A150213280000E64E /* DirectionParser.m */; };
+		1CDE8A9E150216CE0000E64E /* DirectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE8A9D150216CE0000E64E /* DirectionController.m */; };
+		1CDE8AAE150292CD0000E64E /* StopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE8AAD150292CD0000E64E /* StopController.m */; };
+		1CDE8AB21503039A0000E64E /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE8AB11503039A0000E64E /* Stop.m */; };
+		1CE6397A1503C47700284A8D /* TimeSchedulerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE639791503C47700284A8D /* TimeSchedulerController.m */; };
+		1CE6397D1503C4BC00284A8D /* TimeScheduleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6397C1503C4BC00284A8D /* TimeScheduleParser.m */; };
+		1CE639811503E98B00284A8D /* BusMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE639801503E98B00284A8D /* BusMapController.m */; };
+		1CE639871503F04900284A8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE639861503F04900284A8D /* MapKit.framework */; };
+		1CE6398B1503F15C00284A8D /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6398A1503F15C00284A8D /* MyAnnotation.m */; };
+		1CE639A1150473AA00284A8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE639A0150473AA00284A8D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0008A11510213E0060D3A3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		1C7D8C711501EFD900D6DDA7 /* SFBusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFBusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7D8C751501EFD900D6DDA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C7D8C771501EFD900D6DDA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C7D8C791501EFD900D6DDA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C7D8C7D1501EFD900D6DDA7 /* SFBusTracker-Info.plist */ = {isa = PBXFileReference; path = "SFBusTracker-Info.plist"; sourceTree = "<group>"; };
+		1C7D8C7D1501EFD900D6DDA7 /* SFBusTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFBusTracker-Info.plist"; sourceTree = "<group>"; };
 		1C7D8C7F1501EFD900D6DDA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C7D8C811501EFD900D6DDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C7D8C831501EFD900D6DDA7 /* SFBusTracker-Prefix.pch */ = {isa = PBXFileReference; path = "SFBusTracker-Prefix.pch"; sourceTree = "<group>"; };
-		1C7D8C841501EFD900D6DDA7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C7D8C831501EFD900D6DDA7 /* SFBusTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFBusTracker-Prefix.pch"; sourceTree = "<group>"; };
+		1C7D8C841501EFD900D6DDA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C7D8C851501EFD900D6DDA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1C7D8C881501EFD900D6DDA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1C7D8C8A1501EFD900D6DDA7 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		1C7D8C8B1501EFD900D6DDA7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		1C7D8C8D1501EFD900D6DDA7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		1C7D8C8F1501EFD900D6DDA7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		1C7D8C911501EFD900D6DDA7 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		1C7D8C921501EFD900D6DDA7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1C7D8C941501EFD900D6DDA7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		1C7D8C961501EFD900D6DDA7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		1C7D8C9E1501F14400D6DDA7 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		1C7D8C9F1501F14400D6DDA7 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		1C7D8CA51501F25F00D6DDA7 /* RouteParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteParser.h; sourceTree = "<group>"; };
+		1C7D8CA61501F25F00D6DDA7 /* RouteParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteParser.m; sourceTree = "<group>"; };
+		1C95D512150AF50E00BE3238 /* DirectionInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionInstructions.h; sourceTree = "<group>"; };
+		1C95D513150AF50E00BE3238 /* DirectionInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionInstructions.m; sourceTree = "<group>"; };
+		1C95D518150BCF0200BE3238 /* GoogleXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleXMLParser.h; sourceTree = "<group>"; };
+		1C95D519150BCF0200BE3238 /* GoogleXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleXMLParser.m; sourceTree = "<group>"; };
+		1C95D51B150BCF5900BE3238 /* DirectionInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionInformation.h; sourceTree = "<group>"; };
+		1C95D51C150BCF5900BE3238 /* DirectionInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionInformation.m; sourceTree = "<group>"; };
+		1C9D39951505577200624C8E /* BusLocationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusLocationParser.h; sourceTree = "<group>"; };
+		1C9D39961505577200624C8E /* BusLocationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusLocationParser.m; sourceTree = "<group>"; };
+		1C9D399915055ABB00624C8E /* BusInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusInfo.h; sourceTree = "<group>"; };
+		1C9D399A15055ABB00624C8E /* BusInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusInfo.m; sourceTree = "<group>"; };
+		1C9D39A11505B46B00624C8E /* VehicleLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleLocation.h; sourceTree = "<group>"; };
+		1C9D39A21505B46B00624C8E /* VehicleLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleLocation.m; sourceTree = "<group>"; };
+		1C9E2A9B15051ADF00C955DE /* DisplayRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayRoute.h; sourceTree = "<group>"; };
+		1C9E2A9C15051ADF00C955DE /* DisplayRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayRoute.m; sourceTree = "<group>"; };
+		1C9E2A9D15051ADF00C955DE /* GetInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetInformation.h; sourceTree = "<group>"; };
+		1C9E2A9E15051ADF00C955DE /* GetInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetInformation.m; sourceTree = "<group>"; };
+		1C9E2A9F15051ADF00C955DE /* FindLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLocation.h; sourceTree = "<group>"; };
+		1C9E2AA015051ADF00C955DE /* FindLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindLocation.m; sourceTree = "<group>"; };
+		1C9E2B601506901C00F1FA63 /* MemoryHound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryHound.h; sourceTree = "<group>"; };
+		1C9E2B611506901C00F1FA63 /* MemoryHound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryHound.m; sourceTree = "<group>"; };
+		1CA67534171A872500328D07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CDE8A941501FF7E0000E64E /* RouteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteController.h; sourceTree = "<group>"; };
+		1CDE8A951501FF7E0000E64E /* RouteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteController.m; sourceTree = "<group>"; };
+		1CDE8A99150213280000E64E /* DirectionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionParser.h; sourceTree = "<group>"; };
+		1CDE8A9A150213280000E64E /* DirectionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionParser.m; sourceTree = "<group>"; };
+		1CDE8A9C150216CE0000E64E /* DirectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionController.h; sourceTree = "<group>"; };
+		1CDE8A9D150216CE0000E64E /* DirectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionController.m; sourceTree = "<group>"; };
+		1CDE8AAC150292CD0000E64E /* StopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopController.h; sourceTree = "<group>"; };
+		1CDE8AAD150292CD0000E64E /* StopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopController.m; sourceTree = "<group>"; };
+		1CDE8AB01503039A0000E64E /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		1CDE8AB11503039A0000E64E /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		1CE639781503C47700284A8D /* TimeSchedulerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSchedulerController.h; sourceTree = "<group>"; };
+		1CE639791503C47700284A8D /* TimeSchedulerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSchedulerController.m; sourceTree = "<group>"; };
+		1CE6397B1503C4BC00284A8D /* TimeScheduleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeScheduleParser.h; sourceTree = "<group>"; };
+		1CE6397C1503C4BC00284A8D /* TimeScheduleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeScheduleParser.m; sourceTree = "<group>"; };
+		1CE6397F1503E98B00284A8D /* BusMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusMapController.h; sourceTree = "<group>"; };
+		1CE639801503E98B00284A8D /* BusMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusMapController.m; sourceTree = "<group>"; };
+		1CE639861503F04900284A8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1CE639891503F15C00284A8D /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		1CE6398A1503F15C00284A8D /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		1CE639A0150473AA00284A8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE639A1150473AA00284A8D /* CoreLocation.framework in Frameworks */,
+				1CE639871503F04900284A8D /* MapKit.framework in Frameworks */,
 				1C7D8C761501EFD900D6DDA7 /* UIKit.framework in Frameworks */,
 				1C7D8C781501EFD900D6DDA7 /* Foundation.framework in Frameworks */,
 				1C7D8C7A1501EFD900D6DDA7 /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +128,7 @@
 		1C7D8C661501EFD900D6DDA7 = {
 			isa = PBXGroup;
 			children = (
+				1CA67534171A872500328D07 /* Default-568h@2x.png */,
 				1C7D8C7B1501EFD900D6DDA7 /* SFBusTracker */,
 				1C7D8C741501EFD900D6DDA7 /* Frameworks */,
 				1C7D8C721501EFD900D6DDA7 /* Products */,
@@ -78,6 +146,8 @@
 		1C7D8C741501EFD900D6DDA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CE639A0150473AA00284A8D /* CoreLocation.framework */,
+				1CE639861503F04900284A8D /* MapKit.framework */,
 				1C7D8C751501EFD900D6DDA7 /* UIKit.framework */,
 				1C7D8C771501EFD900D6DDA7 /* Foundation.framework */,
 				1C7D8C791501EFD900D6DDA7 /* CoreGraphics.framework */,
@@ -88,15 +158,19 @@
 		1C7D8C7B1501EFD900D6DDA7 /* SFBusTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1C9E2A9915051AA200C955DE /* Bus Stop Search */,
+				1CE639881503F12300284A8D /* Supporting Files */,
+				1CE6397E1503E95E00284A8D /* Bus Map */,
+				1CE639771503C43F00284A8D /* TimeSchedule */,
+				1CDE8AA7150222230000E64E /* Stop */,
+				1CDE8A98150211830000E64E /* Bus Direction */,
+				1C7D8C9D1501F0E000D6DDA7 /* Bus Routes */,
 				1C7D8C841501EFD900D6DDA7 /* AppDelegate.h */,
 				1C7D8C851501EFD900D6DDA7 /* AppDelegate.m */,
+				1C0008A11510213E0060D3A3 /* Icon.png */,
 				1C7D8C871501EFD900D6DDA7 /* MainStoryboard.storyboard */,
-				1C7D8C8A1501EFD900D6DDA7 /* FirstViewController.h */,
-				1C7D8C8B1501EFD900D6DDA7 /* FirstViewController.m */,
 				1C7D8C8D1501EFD900D6DDA7 /* first.png */,
 				1C7D8C8F1501EFD900D6DDA7 /* first@2x.png */,
-				1C7D8C911501EFD900D6DDA7 /* SecondViewController.h */,
-				1C7D8C921501EFD900D6DDA7 /* SecondViewController.m */,
 				1C7D8C941501EFD900D6DDA7 /* second.png */,
 				1C7D8C961501EFD900D6DDA7 /* second@2x.png */,
 				1C7D8C7C1501EFD900D6DDA7 /* Supporting Files */,
@@ -111,6 +185,97 @@
 				1C7D8C7E1501EFD900D6DDA7 /* InfoPlist.strings */,
 				1C7D8C811501EFD900D6DDA7 /* main.m */,
 				1C7D8C831501EFD900D6DDA7 /* SFBusTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C7D8C9D1501F0E000D6DDA7 /* Bus Routes */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D8C9E1501F14400D6DDA7 /* Route.h */,
+				1C7D8C9F1501F14400D6DDA7 /* Route.m */,
+				1C7D8CA51501F25F00D6DDA7 /* RouteParser.h */,
+				1C7D8CA61501F25F00D6DDA7 /* RouteParser.m */,
+				1CDE8A941501FF7E0000E64E /* RouteController.h */,
+				1CDE8A951501FF7E0000E64E /* RouteController.m */,
+			);
+			name = "Bus Routes";
+			sourceTree = "<group>";
+		};
+		1C9E2A9915051AA200C955DE /* Bus Stop Search */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E2A9B15051ADF00C955DE /* DisplayRoute.h */,
+				1C9E2A9C15051ADF00C955DE /* DisplayRoute.m */,
+				1C9E2A9D15051ADF00C955DE /* GetInformation.h */,
+				1C9E2A9E15051ADF00C955DE /* GetInformation.m */,
+				1C9E2A9F15051ADF00C955DE /* FindLocation.h */,
+				1C9E2AA015051ADF00C955DE /* FindLocation.m */,
+				1C95D512150AF50E00BE3238 /* DirectionInstructions.h */,
+				1C95D513150AF50E00BE3238 /* DirectionInstructions.m */,
+				1C95D518150BCF0200BE3238 /* GoogleXMLParser.h */,
+				1C95D519150BCF0200BE3238 /* GoogleXMLParser.m */,
+				1C95D51B150BCF5900BE3238 /* DirectionInformation.h */,
+				1C95D51C150BCF5900BE3238 /* DirectionInformation.m */,
+			);
+			name = "Bus Stop Search";
+			sourceTree = "<group>";
+		};
+		1CDE8A98150211830000E64E /* Bus Direction */ = {
+			isa = PBXGroup;
+			children = (
+				1CDE8A99150213280000E64E /* DirectionParser.h */,
+				1CDE8A9A150213280000E64E /* DirectionParser.m */,
+				1CDE8A9C150216CE0000E64E /* DirectionController.h */,
+				1CDE8A9D150216CE0000E64E /* DirectionController.m */,
+			);
+			name = "Bus Direction";
+			sourceTree = "<group>";
+		};
+		1CDE8AA7150222230000E64E /* Stop */ = {
+			isa = PBXGroup;
+			children = (
+				1CDE8AAC150292CD0000E64E /* StopController.h */,
+				1CDE8AAD150292CD0000E64E /* StopController.m */,
+				1CDE8AB01503039A0000E64E /* Stop.h */,
+				1CDE8AB11503039A0000E64E /* Stop.m */,
+			);
+			name = Stop;
+			sourceTree = "<group>";
+		};
+		1CE639771503C43F00284A8D /* TimeSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D399A15055ABB00624C8E /* BusInfo.m */,
+				1C9D399915055ABB00624C8E /* BusInfo.h */,
+				1CE639781503C47700284A8D /* TimeSchedulerController.h */,
+				1CE639791503C47700284A8D /* TimeSchedulerController.m */,
+				1CE6397B1503C4BC00284A8D /* TimeScheduleParser.h */,
+				1CE6397C1503C4BC00284A8D /* TimeScheduleParser.m */,
+			);
+			name = TimeSchedule;
+			sourceTree = "<group>";
+		};
+		1CE6397E1503E95E00284A8D /* Bus Map */ = {
+			isa = PBXGroup;
+			children = (
+				1CE6397F1503E98B00284A8D /* BusMapController.h */,
+				1CE639801503E98B00284A8D /* BusMapController.m */,
+				1C9D39951505577200624C8E /* BusLocationParser.h */,
+				1C9D39961505577200624C8E /* BusLocationParser.m */,
+				1C9D39A11505B46B00624C8E /* VehicleLocation.h */,
+				1C9D39A21505B46B00624C8E /* VehicleLocation.m */,
+			);
+			name = "Bus Map";
+			sourceTree = "<group>";
+		};
+		1CE639881503F12300284A8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E2B601506901C00F1FA63 /* MemoryHound.h */,
+				1C9E2B611506901C00F1FA63 /* MemoryHound.m */,
+				1CE639891503F15C00284A8D /* MyAnnotation.h */,
+				1CE6398A1503F15C00284A8D /* MyAnnotation.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,7 +306,7 @@
 		1C7D8C681501EFD900D6DDA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 1C7D8C6B1501EFD900D6DDA7 /* Build configuration list for PBXProject "SFBusTracker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -171,6 +336,8 @@
 				1C7D8C901501EFD900D6DDA7 /* first@2x.png in Resources */,
 				1C7D8C951501EFD900D6DDA7 /* second.png in Resources */,
 				1C7D8C971501EFD900D6DDA7 /* second@2x.png in Resources */,
+				1C0008A2151021400060D3A3 /* Icon.png in Resources */,
+				1CA67535171A872500328D07 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +350,27 @@
 			files = (
 				1C7D8C821501EFD900D6DDA7 /* main.m in Sources */,
 				1C7D8C861501EFD900D6DDA7 /* AppDelegate.m in Sources */,
-				1C7D8C8C1501EFD900D6DDA7 /* FirstViewController.m in Sources */,
-				1C7D8C931501EFD900D6DDA7 /* SecondViewController.m in Sources */,
+				1C7D8CA01501F14400D6DDA7 /* Route.m in Sources */,
+				1C7D8CA71501F25F00D6DDA7 /* RouteParser.m in Sources */,
+				1CDE8A961501FF7E0000E64E /* RouteController.m in Sources */,
+				1CDE8A9B150213280000E64E /* DirectionParser.m in Sources */,
+				1CDE8A9E150216CE0000E64E /* DirectionController.m in Sources */,
+				1CDE8AAE150292CD0000E64E /* StopController.m in Sources */,
+				1CDE8AB21503039A0000E64E /* Stop.m in Sources */,
+				1CE6397A1503C47700284A8D /* TimeSchedulerController.m in Sources */,
+				1CE6397D1503C4BC00284A8D /* TimeScheduleParser.m in Sources */,
+				1CE639811503E98B00284A8D /* BusMapController.m in Sources */,
+				1CE6398B1503F15C00284A8D /* MyAnnotation.m in Sources */,
+				1C9E2AA115051ADF00C955DE /* DisplayRoute.m in Sources */,
+				1C9E2AA215051ADF00C955DE /* GetInformation.m in Sources */,
+				1C9E2AA315051ADF00C955DE /* FindLocation.m in Sources */,
+				1C9D39971505577200624C8E /* BusLocationParser.m in Sources */,
+				1C9D399B15055ABB00624C8E /* BusInfo.m in Sources */,
+				1C9D39A31505B46B00624C8E /* VehicleLocation.m in Sources */,
+				1C9E2B621506901C00F1FA63 /* MemoryHound.m in Sources */,
+				1C95D514150AF50E00BE3238 /* DirectionInstructions.m in Sources */,
+				1C95D51A150BCF0200BE3238 /* GoogleXMLParser.m in Sources */,
+				1C95D51D150BCF5A00BE3238 /* DirectionInformation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +402,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -229,6 +419,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
@@ -241,12 +432,17 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -262,6 +458,7 @@
 				GCC_PREFIX_HEADER = "SFBusTracker/SFBusTracker-Prefix.pch";
 				INFOPLIST_FILE = "SFBusTracker/SFBusTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,6 +470,7 @@
 				GCC_PREFIX_HEADER = "SFBusTracker/SFBusTracker-Prefix.pch";
 				INFOPLIST_FILE = "SFBusTracker/SFBusTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -296,6 +494,7 @@
 				1C7D8C9C1501EFD900D6DDA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

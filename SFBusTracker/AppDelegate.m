@@ -7,14 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "MemoryHound.h"
 
 @implementation AppDelegate
+
 
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //[MemoryHound startRotateHound];
     return YES;
 }
 							
